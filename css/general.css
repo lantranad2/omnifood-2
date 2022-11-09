@@ -2,6 +2,7 @@
   --color-primary: #e67e22;
   --color-secondary: #fdf2e9;
   --color-accent: #cf711f;
+  --color-focus: #e67d2280;
   --color-heading: #333;
   --color-body: #555;
 }
@@ -23,4 +24,41 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+*:focus {
+  box-shadow: 0 0 0 8px var(--color-focus);
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.btn {
+  /* border: 1px solid #f00; */
+
+  border-radius: 12px;
+  padding: 1rem 2rem;
+}
+
+.btn--cta {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
 }

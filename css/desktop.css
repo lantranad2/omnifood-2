@@ -1,0 +1,31 @@
+/* Header */
+
+@media screen and (min-width: 768px) {
+  .nav__icons {
+    display: none;
+  }
+
+  .nav__list {
+    position: static;
+    background: transparent;
+    transform: translateX(0);
+
+    flex-direction: row;
+  }
+
+  .nav__item {
+    padding: 0 1.2rem;
+  }
+
+  .nav__item:first-of-type {
+    padding-left: 0;
+  }
+
+  .nav__item:last-of-type {
+    padding-right: 0;
+  }
+
+  .nav__item a {
+    font-size: 1.6rem;
+  }
+}
