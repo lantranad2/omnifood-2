@@ -49,11 +49,16 @@
   color: var(--color-heading);
   font-size: 2.2rem;
   font-weight: 600;
-  transition: color 0.3s;
+  transition: all 0.3s;
 }
 
 .nav__item a:hover {
   color: var(--color-primary);
+}
+
+.nav__item .nav__cta,
+.nav__item .nav__cta:hover {
+  color: #fff;
 }
 
 .nav__icons {
@@ -83,4 +88,75 @@
 
 .nav--open .nav__icon--close {
   display: block;
+}
+
+/* Hero */
+.hero {
+  background: var(--color-secondary);
+  text-align: center;
+}
+
+.hero__content {
+  row-gap: 4.8rem;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.hero__heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--color-heading);
+}
+
+.hero__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero__meals {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__customers {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__customers img {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-left: -1.6rem;
+  border: 2px solid var(--color-secondary);
+  border-radius: 100%;
+}
+
+.hero__customers img:first-of-type {
+  margin-left: 0;
+}
+
+.hero__delivered-text {
+  color: var(--color-heading);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.hero__meals-number {
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
+.hero__img img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }

@@ -1,6 +1,5 @@
-/* Header */
-
 @media screen and (min-width: 768px) {
+  /* Header */
   .nav__icons {
     display: none;
   }
@@ -27,5 +26,52 @@
 
   .nav__item a {
     font-size: 1.6rem;
+  }
+
+  /* Hero */
+  .hero {
+    text-align: left;
+  }
+
+  .hero__content {
+    align-items: center;
+    column-gap: 1rem;
+  }
+
+  .hero__heading {
+    font-size: 3.6rem;
+  }
+
+  .hero__description {
+    font-size: 1.8rem;
+  }
+
+  .hero__btns {
+    justify-content: flex-start;
+  }
+
+  .hero__meals {
+    gap: 1rem;
+  }
+
+  .hero__customers {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Hero */
+  .hero__heading {
+    font-size: 4.4rem;
+  }
+
+  .hero__description {
+    font-size: 2rem;
+  }
+
+  .hero__meals {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
   }
 }
