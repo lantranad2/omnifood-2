@@ -86,6 +86,16 @@
   .works__description {
     font-size: 1.6rem;
   }
+
+  /* Meals */
+  .meals__content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+
+  .meals__diet {
+    grid-column: span 2;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -116,6 +126,15 @@
 
   .works__description {
     font-size: 1.8rem;
+  }
+
+  /* Meals */
+  .meals__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .meals__diet {
+    grid-column: span 1;
   }
 }
 

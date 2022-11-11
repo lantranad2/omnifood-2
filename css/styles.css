@@ -244,3 +244,85 @@
 .works__description {
   font-size: 1.8rem;
 }
+
+/* Meals */
+.meals {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.meals__meal,
+.meals__diet {
+  max-width: 420px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.meals__meal:hover {
+  transform: translateY(-12px);
+}
+
+.meals__header {
+  text-align: center;
+}
+
+.meals__content {
+  display: grid;
+  justify-items: center;
+  row-gap: 3rem;
+}
+
+.meals__name,
+.meals__diet-heading {
+  color: var(--color-heading);
+  font-size: 2.2rem;
+}
+
+.meals__diet-heading {
+  margin-bottom: 2rem;
+}
+
+.meals__gradients {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.meals__diet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.meals__gradient,
+.meals__diet-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.meals__icon {
+  color: var(--color-primary);
+}
+
+.meals__gradient-detail,
+.meals__tag {
+  font-size: 1.6rem;
+}
+
+.meals__gradient-number {
+  font-weight: 500;
+}
+.meals__see-all {
+  color: var(--color-accent);
+  font-size: 1.6rem;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--color-accent);
+  transition: border-bottom 0.4s;
+  align-self: center;
+}
+
+.meals__see-all:hover {
+  border-bottom: 1px solid transparent;
+}

@@ -111,6 +111,47 @@ a {
   display: grid;
 }
 
+/* Card */
+.card {
+  /* border: 1px solid #f00;
+  width: 300px; */
+
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+}
+
+.card__body {
+  padding: 1.6rem 2rem 3.2rem;
+}
+
+/* Badges */
+.badge {
+  text-transform: uppercase;
+  color: var(--color-heading);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 4px 10px;
+}
+
+.badge--primary {
+  background: #37b24d;
+}
+
+.badge--secondary {
+  background: #69db7c;
+}
+
+.badge--accent {
+  background: #ffe066;
+}
+
 @media screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
