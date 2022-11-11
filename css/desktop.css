@@ -1,3 +1,6 @@
+@media screen and (min-width: 576px) {
+}
+
 @media screen and (min-width: 768px) {
   /* Header */
   .nav__icons {
@@ -66,6 +69,23 @@
   .features__logos img {
     max-width: 150px;
   }
+
+  /* Works */
+  .works__step {
+    align-items: center;
+  }
+
+  .works__step:nth-of-type(odd) .works__img {
+    order: 1;
+  }
+
+  .works__step-heading {
+    font-size: 2.2rem;
+  }
+
+  .works__description {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -88,4 +108,16 @@
   .features__logos {
     grid-template-columns: repeat(5, 1fr);
   }
+
+  /* Works */
+  .works__step-heading {
+    font-size: 2.4rem;
+  }
+
+  .works__description {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
 }
