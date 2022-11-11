@@ -86,6 +86,10 @@ a {
   padding-bottom: 7rem;
 }
 
+.block--secondary {
+  background-color: var(--color-secondary);
+}
+
 .block__header {
   display: flex;
   flex-direction: column;

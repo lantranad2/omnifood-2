@@ -1,6 +1,25 @@
 @media screen and (min-width: 576px) {
 }
 
+@media screen and (min-width: 640px) {
+  /* Testimonials */
+  .testimonials__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonials__quote {
+    font-size: 1.6rem;
+  }
+
+  .testimonials__name {
+    font-size: 1.4rem;
+  }
+
+  .testimonials__gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* Header */
   .nav__icons {
@@ -96,6 +115,15 @@
   .meals__diet {
     grid-column: span 2;
   }
+
+  /* Testimonials */
+  .testimonials__quote {
+    font-size: 1.8rem;
+  }
+
+  .testimonials__name {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -136,7 +164,19 @@
   .meals__diet {
     grid-column: span 1;
   }
+
+  /* Testimonials */
+  .testimonials__gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  /* Testimonials */
+  .testimonials__content {
+    grid-template-columns: 3fr 2fr;
+  }
+  .testimonials__gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
