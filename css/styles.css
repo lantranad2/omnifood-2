@@ -161,8 +161,8 @@
   margin: 0 auto;
 }
 
-/* Features */
-.features__heading {
+/* Company */
+.companies__heading {
   color: var(--color-body);
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -170,7 +170,7 @@
   margin-bottom: 3.6rem;
 }
 
-.features__logos {
+.companies__logos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -178,7 +178,7 @@
   gap: 1.6rem;
 }
 
-.features__logos img {
+.companies__logos img {
   display: block;
   width: 100%;
   max-width: 100px;
