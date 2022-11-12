@@ -188,7 +188,7 @@
 .works {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 12rem;
 }
 
 .works__img {
@@ -234,6 +234,10 @@
   font-weight: 700;
   color: #ddd;
   line-height: 1;
+}
+
+.works__step {
+  gap: 1.6rem;
 }
 
 .works__step-heading {
@@ -289,35 +293,15 @@
   margin-top: 2rem;
 }
 
-/* .meals__diet-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
-} */
-
 .meals__gradient {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-/* .meals__diet-item {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-} */
-
-/* .meals__icon {
-  color: var(--color-primary);
-} */
-
 .meals__gradient-detail {
   font-size: 1.6rem;
 }
-
-/* .meals__tag {
-  font-size: 1.6rem;
-} */
 
 .meals__gradient-number {
   font-weight: 500;
@@ -578,6 +562,9 @@
 
 .footer__icons a {
   color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__icon {
