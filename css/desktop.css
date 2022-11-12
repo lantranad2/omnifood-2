@@ -18,6 +18,11 @@
   .testimonials__gallery {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  /* Prices */
+  .prices__features {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -124,6 +129,15 @@
   .testimonials__name {
     font-size: 1.6rem;
   }
+
+  /* Prices */
+  .plan--starter {
+    justify-self: end;
+  }
+
+  .plan--complete {
+    justify-self: start;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -178,5 +192,11 @@
   }
   .testimonials__gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Prices */
+  .prices__features {
+    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
