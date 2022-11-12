@@ -532,3 +532,64 @@
 .registration__text {
   font-size: 1.8rem;
 }
+
+/* Footer */
+.footer__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+.footer__title {
+  color: var(--color-heading);
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.footer__link {
+  color: var(--color-body);
+}
+
+.footer__link:hover {
+  color: var(--color-heading);
+}
+
+.footer__contact {
+  grid-column: 1/-1;
+}
+
+.footer__logo {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer__img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer__icons a {
+  color: inherit;
+}
+
+.footer__icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  transition: color 0.2s;
+}
+
+.footer__icon:hover {
+  color: var(--color-primary);
+}
+
+.footer__copyright {
+  font-size: 1.8rem;
+}
