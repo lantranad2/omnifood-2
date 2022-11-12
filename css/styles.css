@@ -497,3 +497,38 @@
   display: grid;
   gap: 5rem;
 }
+
+/* Registration */
+.registration__content {
+  background: linear-gradient(to right bottom, #eb984e, #e67e22);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.registration__img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url(../images/registration_eating.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+}
+
+.registration__info {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--color-heading);
+}
+
+.registration__heading {
+  font-size: 2.8rem;
+}
+
+.registration__text {
+  font-size: 1.8rem;
+}

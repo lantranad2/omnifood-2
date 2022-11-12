@@ -74,7 +74,7 @@ a {
 
 .btn {
   border-radius: 12px;
-  padding: 1.2rem 2rem;
+  padding: 1.4rem 2rem;
   border: none;
   outline: none;
   font-size: 1.6rem;
@@ -99,6 +99,16 @@ a {
 .btn--secondary:hover {
   box-shadow: inset 0 0 0 3px #fff;
   background: transparent;
+}
+
+.btn--form {
+  background: #45260a;
+  color: #fff;
+}
+
+.btn--form:hover {
+  background: #fff;
+  color: #45260a;
 }
 
 .block {
@@ -137,9 +147,6 @@ a {
 
 /* Card */
 .card {
-  /* border: 1px solid #f00;
-  width: 300px; */
-
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
@@ -215,4 +222,41 @@ a {
     height: 3.2rem;
     padding: 1.4rem;
   }
+}
+
+.form {
+  display: grid;
+  gap: 2rem;
+}
+
+.form *:focus {
+  box-shadow: 0 0 0 5px #f5cba7;
+}
+
+::placeholder {
+  font-size: 1.6rem;
+  color: #999;
+  font-weight: 500;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.form__label {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.form__input {
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #777;
 }
