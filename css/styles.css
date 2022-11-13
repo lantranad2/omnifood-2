@@ -554,6 +554,10 @@
 }
 
 .footer__img {
+  align-self: flex-start;
+}
+
+.footer__img img {
   width: 100%;
   max-width: 200px;
   display: block;
