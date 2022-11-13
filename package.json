@@ -1,0 +1,14 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
