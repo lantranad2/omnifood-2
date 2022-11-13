@@ -66,11 +66,13 @@
   background: transparent;
   border: none;
   outline: none;
-
-  /* position: fixed;
-  right: 2rem;
-  top: 2rem; */
   z-index: 9;
+}
+
+.nav--open .nav__icons {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
 }
 
 .nav__icon {
