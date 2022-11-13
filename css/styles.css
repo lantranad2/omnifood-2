@@ -2,12 +2,16 @@
 .header {
   background-color: var(--color-secondary);
   padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 9;
 }
 
 .nav__logo {
@@ -67,10 +71,7 @@
   border: none;
   outline: none;
   z-index: 9;
-}
-
-.nav--open .nav__icons {
-  position: fixed;
+  position: sticky;
   right: 2rem;
   top: 2rem;
 }
