@@ -95,6 +95,7 @@ a {
 }
 
 .btn--secondary {
+  color: var(--color-heading);
   background: #fff;
 }
 
