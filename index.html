@@ -16,18 +16,20 @@
     <link rel="stylesheet" href="css/desktop.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <nav class="container nav">
-        <a href="#" class="nav__logo"
+        <a href="/" class="nav__logo"
           ><img src="images/logo.png" alt="Omnifood Logo" />
         </a>
         <ul class="list nav__list">
-          <li class="nav__item"><a href="#">How it works</a></li>
-          <li class="nav__item"><a href="#">Meals</a></li>
-          <li class="nav__item"><a href="#">Testimonials</a></li>
-          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item"><a href="#works">How it works</a></li>
+          <li class="nav__item"><a href="#meals">Meals</a></li>
+          <li class="nav__item"><a href="#testimonials">Testimonials</a></li>
+          <li class="nav__item"><a href="#prices">Pricing</a></li>
           <li class="nav__item">
-            <a href="#" class="btn btn--cta nav__cta">Try for free</a>
+            <a href="#registration" class="btn btn--cta nav__cta"
+              >Try for free</a
+            >
           </li>
         </ul>
         <button class="nav__icons">
@@ -43,7 +45,7 @@
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <section id="hero" class="hero">
         <div class="container block grid grid--1x2 hero__content">
           <header class="hero__info">
             <h1 class="hero__heading">
@@ -55,8 +57,8 @@
               nutritional needs.
             </p>
             <div class="hero__btns">
-              <button class="btn btn--cta">Start eating well</button>
-              <button class="btn btn--secondary">Learn more &darr;</button>
+              <a class="btn btn--cta" href="#registration">Start eating well</a>
+              <a class="btn btn--secondary" href="#prices">Learn more &darr;</a>
             </div>
             <div class="hero__meals">
               <div class="hero__customers">
@@ -82,7 +84,7 @@
           </div>
         </div>
       </section>
-      <section class="block companies">
+      <section id="companies" class="block companies">
         <div class="container">
           <h2 class="companies__heading">As Featured In</h2>
           <div class="companies__logos">
@@ -100,7 +102,7 @@
           </div>
         </div>
       </section>
-      <section class="block works">
+      <section id="works" class="block works">
         <header class="container block__header works__header">
           <span class="block__subheading works__subheading">How its works</span>
           <h2 class="block__heading works__heading">
@@ -155,7 +157,7 @@
           </div>
         </div>
       </section>
-      <section class="block meals">
+      <section id="meals" class="block meals">
         <header class="container block__header meals__header">
           <span class="block__subheading meals__subheading">Meals</span>
           <h2 class="block__heading meals__heading">
@@ -311,9 +313,11 @@
             </ul>
           </div>
         </div>
-        <a href="#" class="meals__see-all">See all recipes &rarr;</a>
+        <a href="#registration" class="meals__see-all"
+          >See all recipes &rarr;</a
+        >
       </section>
-      <section class="block block--secondary testimonials">
+      <section id="testimonials" class="block block--secondary testimonials">
         <div class="container testimonials__content">
           <div>
             <header class="block__header testimonials__header">
@@ -411,7 +415,7 @@
           </div>
         </div>
       </section>
-      <section class="block prices">
+      <section id="prices" class="block prices">
         <div class="container prices__content">
           <header class="block__header prices__header">
             <span class="block__subheading">Pricing</span>
@@ -541,7 +545,7 @@
           </div>
         </div>
       </section>
-      <section class="block registration">
+      <section id="registration" class="block registration">
         <div class="container">
           <div class="registration__content">
             <div
@@ -602,7 +606,7 @@
         </div>
       </section>
     </main>
-    <footer class="block footer">
+    <footer id="footer" class="block footer">
       <div class="container footer__content">
         <div class="footer__item">
           <h2 class="footer__title">Account</h2>
@@ -655,7 +659,9 @@
           </ul>
         </div>
         <div class="footer__item footer__logo">
-          <img class="footer__img" src="images/logo.png" alt="Omnifood Logo" />
+          <a href="#header"
+            ><img class="footer__img" src="images/logo.png" alt="Omnifood Logo"
+          /></a>
           <div class="footer__icons">
             <a href="#">
               <ion-icon class="footer__icon" name="logo-instagram"></ion-icon>
